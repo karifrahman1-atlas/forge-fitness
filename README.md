@@ -1,21 +1,26 @@
-# FORGE FITNESS — Single-Page Local SEO Portfolio Concept
+# FORGE FITNESS — single-page portfolio concept
 
-A responsive single-page website concept for a fictional neighbourhood gym in Mirpur, Dhaka.
+A responsive fictional gym website concept designed to demonstrate content strategy, user experience, conversion thinking, and on-page SEO structure.
 
-## Files
-- `index.html`: page content, metadata, social metadata and basic WebSite structured data
-- `style.css`: visual system and responsive layouts
-- `script.js`: mobile navigation, FAQ accordion and dynamic footer year
-- `robots.txt`: crawler instructions
-- `sitemap.xml`: one canonical page
+## Included
+- Responsive single-page layout with anchor navigation
+- Training, facilities, sample membership plans, trainer concepts, sample schedule, gallery and FAQ
+- Interactive training-goal selector
+- Membership comparison table
+- Accessible sample gym-tour dialog with client-side validation
+- Mobile navigation and FAQ accordion
+- `robots.txt` and `sitemap.xml` (review URLs before publishing)
 
-## Before publishing
-1. Replace `https://example.com/` with the final deployed canonical URL in `index.html`, `robots.txt`, and `sitemap.xml`.
-2. Replace the demo email address and keep the project clearly labelled as fictional.
-3. Replace stock imagery with properly licensed/optimised images for a production-ready build.
-4. Verify mobile layout, keyboard navigation, contrast, page performance, links and HTML validity.
-5. Only add a LocalBusiness schema type after confirming the correct type and real business details.
-6. Do not invent customer reviews, trainer credentials, a real address or a fake Google Business Profile.
+## Important demo notes
+- FORGE FITNESS is a fictional portfolio concept, not a real gym.
+- Prices, amenities, schedule, trainer roles and location details are illustrative.
+- The booking form is front-end only. It does not transmit or save personal information.
+- Images are loaded from Unsplash URLs and are illustrative stock imagery.
+- Do not represent sample testimonials, prices, trainer credentials, address or contact details as real business information.
 
-## SEO notes
-This is intentionally a single-page site. Section anchors improve navigation but do not create separate indexable landing pages. Structured data does not guarantee rich results or improved rankings.
+## Before public portfolio use
+1. Update canonical, Open Graph URL, sitemap and robots URLs to the intended public URL (or a custom domain).
+2. Consider choosing a distinctive brand name to avoid confusion with existing businesses.
+3. Run Lighthouse/PageSpeed and test mobile, keyboard navigation and form states.
+4. Replace stock images with properly licensed imagery where possible.
+5. If adapting for a real business, confirm every price, facility, policy, address and service with the owner.
